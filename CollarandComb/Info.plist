@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>NSCameraUsageDescription</key>
+	<string>We need to have access to your camera to scan member QR codes.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Barlow-ExtraLight.ttf</string>
+		<string>Barlow-Black.ttf</string>
+		<string>Barlow-Bold.ttf</string>
+		<string>Barlow-SemiBold.ttf</string>
+		<string>Barlow-Medium.ttf</string>
+		<string>Barlow-Regular.ttf</string>
+		<string>Barlow-Light.ttf</string>
+	</array>
+</dict>
+</plist>

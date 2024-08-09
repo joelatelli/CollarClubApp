@@ -1,0 +1,24 @@
+//
+//  InstanceSocial.swift
+//  CollarandComb
+//
+//  Created by Joel Muflam on 1/23/24.
+//
+
+import Foundation
+
+public struct InstanceSocial: Decodable, Identifiable, Sendable {
+  public struct Info: Decodable, Sendable {
+	public let shortDescription: String?
+  }
+
+  public let id: String
+  public let name: String
+  public let dead: Bool
+  public let users: String
+  public let activeUsers: Int?
+  public let statuses: String
+  public let thumbnail: URL?
+  public let info: Info?
+}
+
